@@ -1,22 +1,22 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:foresee/firebase_options.dart';
-import 'package:foresee/tests/HomePage2.dart';
+import 'package:tradeop/firebase_options.dart';
+import 'package:tradeop/tests/HomePage2.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:foresee/LoginPage.dart';
-import 'package:foresee/dashboardPage.dart';
-import 'package:foresee/integrations/Flutter_Upi.dart';
-import 'package:foresee/integrations/auth/LoginPageNew.dart';
-import 'package:foresee/integrations/auth/passwordless2.dart';
-// import 'package:foresee/integrations/firebaseDB.dart';
-// import 'package:foresee/landingPage.dart';
-import 'package:foresee/leftDrawer.dart';
-import 'package:foresee/pages/DashboardPageF.dart';
-import 'package:foresee/tests/DashboardTabs.dart';
-import 'package:foresee/tests/HomePage.dart';
-import 'package:foresee/tests/WalletPage/WalletPage3.dart';
-// import 'package:foresee/tests/HomePage2.dart';
-import 'package:foresee/tests/WalletPage2.dart';
+import 'package:tradeop/LoginPage.dart';
+import 'package:tradeop/dashboardPage.dart';
+import 'package:tradeop/integrations/Flutter_Upi.dart';
+import 'package:tradeop/integrations/auth/LoginPageNew.dart';
+import 'package:tradeop/integrations/auth/passwordless2.dart';
+// import 'package:tradeop/integrations/firebaseDB.dart';
+// import 'package:tradeop/landingPage.dart';
+import 'package:tradeop/leftDrawer.dart';
+import 'package:tradeop/pages/DashboardPageF.dart';
+import 'package:tradeop/tests/DashboardTabs.dart';
+import 'package:tradeop/tests/HomePage.dart';
+import 'package:tradeop/tests/WalletPage/WalletPage3.dart';
+// import 'package:tradeop/tests/HomePage2.dart';
+import 'package:tradeop/tests/WalletPage2.dart';
 
 //For-FB-setup
 import "package:firebase_core/firebase_core.dart";

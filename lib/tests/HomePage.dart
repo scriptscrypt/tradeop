@@ -4,8 +4,8 @@
 
 import 'dart:async'; //For-timer-function
 import 'package:flutter/material.dart';
-import 'package:foresee/leftDrawer.dart';
-import 'package:foresee/tests/WalletPage/WalletPage3.dart';
+import 'package:tradeop/leftDrawer.dart';
+import 'package:tradeop/tests/WalletPage/WalletPage3.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';

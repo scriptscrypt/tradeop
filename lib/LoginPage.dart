@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:googleapis/cloudsearch/v1.dart';
 import "package:shared_preferences/shared_preferences.dart";
-import 'package:foresee/landingPage.dart';
+import 'package:tradeop/landingPage.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

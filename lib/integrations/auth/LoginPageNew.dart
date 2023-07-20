@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_rx/src/rx_typedefs/rx_typedefs.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:foresee/integrations/auth/functions/authFunctions.dart';
+import 'package:tradeop/integrations/auth/functions/authFunctions.dart';
 
 class LoginForm extends StatefulWidget {
   const LoginForm({super.key});

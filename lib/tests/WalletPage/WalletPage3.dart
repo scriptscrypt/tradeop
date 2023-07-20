@@ -4,10 +4,10 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:get/get_utils/src/extensions/widget_extensions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:foresee/tests/DashboardTabs.dart';
-import 'package:foresee/tests/WalletPage/TopupsTab.dart';
-import 'package:foresee/tests/WalletPage/WithdrawsTab.dart';
-import 'package:foresee/tests/WalletPage2.dart';
+import 'package:tradeop/tests/DashboardTabs.dart';
+import 'package:tradeop/tests/WalletPage/TopupsTab.dart';
+import 'package:tradeop/tests/WalletPage/WithdrawsTab.dart';
+import 'package:tradeop/tests/WalletPage2.dart';
 
 class WalletPage3 extends StatefulWidget {
   const WalletPage3({super.key});

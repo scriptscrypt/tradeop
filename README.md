@@ -2,8 +2,14 @@
  
 Your personalized opinion trading application.
 
-# Production
-`Alpha` - [Link]()
+## Production
+
+`Alpha` - [Link](#)
+_Please find the apk from the artifacts of build_apk workflow_
+
+## Workflows 
+
+[![Build and Store APK](https://github.com/scriptscrypt/tradeop/actions/workflows/build_apk.yml/badge.svg)](https://github.com/scriptscrypt/tradeop/actions/workflows/build_apk.yml)
 
 ## Tech Stack
 

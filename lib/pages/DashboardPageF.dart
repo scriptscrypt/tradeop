@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foresee/tests/DashboardTabs.dart';
+import 'package:tradeop/tests/DashboardTabs.dart';
 
 class DashboardPageF extends StatefulWidget {
   const DashboardPageF({super.key});

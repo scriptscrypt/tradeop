@@ -4,8 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:foresee/dashboardPage.dart';
-import 'package:foresee/leftDrawer.dart';
+import 'package:tradeop/dashboardPage.dart';
+import 'package:tradeop/leftDrawer.dart';
 import 'package:intl/intl.dart';
 
 class DashboardTabs extends StatefulWidget {
