@@ -167,7 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
           //Logo-to-be-added-here
           // title: Text("Tradeop"),
           title: Image.asset(
-            "./images/foreseeLogo.jpg",
+            "./images/tradeoplogo.png",
             width: 32.0, // set the width and height of the image
             height: 32.0,
           ),

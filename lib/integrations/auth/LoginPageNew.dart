@@ -117,7 +117,7 @@ class _LoginFormState extends State<LoginForm> {
         centerTitle: true,
         // title: const Text('Foresee'),
         title: Image.asset(
-          "images/foreseeLogo.jpg",
+          "images/tradeoplogo.png",
           width: 32.0, // set the width and height of the image
           height: 32.0,
         ),

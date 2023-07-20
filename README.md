@@ -17,8 +17,8 @@ _Please find the apk from the artifacts of build_apk workflow_
 | ----------------- |----------------- |
 | Flutter | https://flutter.dev |
 | Firebase | https://firebase.google.com |
+| Icons | https://icon.kitchen |
  
-
 ## For local development
 
 1. Install all the dependencies from the `pubspec.yaml` file 
