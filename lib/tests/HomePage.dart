@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _getData() async {
     // final String spreadsheetId = "1xCl8tDCpc_teLMF628ZFl79EIEraDI1qIGN_NLCHDE8";
-    final String spreadsheetId = "1-XUN31OppILOCh_zpkdiK0m3Qs3pRIDFkwK9hnOuC4M";
+    final String spreadsheetId = "10LiPnCRREizHvPbhHEgpD0Up-cDUD0g8v1TipwzjOeE";
     final String apiKey = "AIzaSyDUuLASGb3o-HP0fpHUg0VpQYC7indkv-U";
     final String sheetName = widget.sheetName;
     final String range = "A:L";
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
                                 children: [
-                                  Text("Match ${sheetMatchNo}"),
+                                  Text("Trade ${sheetMatchNo}"),
                                   Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: Text(sheetIsMatchLive),
@@ -141,8 +141,8 @@ class _HomePageState extends State<HomePage> {
                         //End-of-line-1
                         Text(
                             textScaleFactor: 2,
-                            "${sheetHomeTeam} vs ${sheetAwayTeam}"),
-                        Text("Will ${sheetHomeTeam} win the ${sheetGameType} against ${sheetAwayTeam} at the ${sheetStadium}stadium tonight?")
+                            "${sheetHomeTeam} at ${sheetAwayTeam}%"),
+                        Text("Will ${sheetHomeTeam} hit the ${sheetGameType} value more than ${sheetAwayTeam}% within ${sheetStadium} today?")
                             .marginSymmetric(horizontal: 16.0, vertical: 16.0)
                             .paddingSymmetric(horizontal: 8.0, vertical: 8.0),
                         // Text(value7)

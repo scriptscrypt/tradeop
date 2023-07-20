@@ -16,7 +16,7 @@ class FirestoreServices {
       'keyEmail': email,
       'keyFullName': name,
       "keyPhNumber": phoneNumber,
-      "keyWalletBalance": 0,
+      "keyWalletBalance": 50,
       "keyTotalInvestment": 0,
       "keyWithdrawn": 0,
       "keyHasAcceptedPrivacyPolicyAndTermsAndConditions": "Yes",

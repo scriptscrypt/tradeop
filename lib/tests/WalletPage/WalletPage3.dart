@@ -54,9 +54,9 @@ class _WalletPage3State extends State<WalletPage3>
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-                    style: TextStyle(color: Color.fromARGB(255, 64, 64, 64)),
+                    style: TextStyle(color: Colors.deepOrange),
                     textScaleFactor: 1,
-                    "iphoenix@axl")
+                    "taxilla@ybl")
                 .marginAll(8.0)
                 .paddingOnly(left: 32.0),
             Text(
@@ -64,7 +64,7 @@ class _WalletPage3State extends State<WalletPage3>
                       color: Colors.deepOrange,
                     ),
                     textScaleFactor: 1,
-                    "Foresee Opinion Trade")
+                    "Tradeop Opinion Trade")
                 .marginAll(8.0)
                 .paddingOnly(right: 32.0),
           ],

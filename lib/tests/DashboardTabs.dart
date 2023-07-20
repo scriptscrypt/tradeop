@@ -174,14 +174,14 @@ class InvestmentsTab extends StatelessWidget {
 
             .snapshots(),
         builder: (context, snapshot) {
-          if (!snapshot.hasData == Null) {
-            return Text("Start Investing !");
-          }
           if (!snapshot.hasData) {
-            return CircularProgressIndicator();
+            return const CircularProgressIndicator();
           }
 
           List<dynamic> payments = snapshot.data!['keyInvestmentsArray'];
+          if (payments.length == 0) {
+            return const Text("Start Investing !");
+          }
           payments.sort(
               (a, b) => b['keyTimeAndDate'].compareTo(a['keyTimeAndDate']));
           return ListView.builder(
@@ -253,7 +253,7 @@ class InvestmentsTab extends StatelessWidget {
                                     right: 8.0,
                                     top: 8.0,
                                     bottom: 8.0),
-                                Text("Match ${payments[index]['keyMatchNo']}")
+                                Text("Trade ${payments[index]['keyMatchNo']}")
                                     .paddingOnly(
                                   left: 8.0,
                                   right: 8.0,
@@ -316,10 +316,13 @@ class TopupsTab extends StatelessWidget {
           if (!snapshot.hasData) {
             return CircularProgressIndicator();
           }
-          if (!snapshot.hasData == null) {
-            return Text("Start adding money to your wallet");
-          }
+          // if (!snapshot.hasData) {
+          //   return Text("Start adding money to your wallet");
+          // }
           List<dynamic> payments = snapshot.data!['keyTopupsArray'];
+          if (payments.length == 0) {
+            return const Text("Start adding money to your wallet");
+          }
           payments.sort(
               (a, b) => b['keyTimeAndDate'].compareTo(a['keyTimeAndDate']));
           return ListView.builder(
@@ -392,11 +395,13 @@ class DashWithdrawsTab extends StatelessWidget {
           if (!snapshot.hasData) {
             return CircularProgressIndicator();
           }
-          if (!snapshot.hasData == null) {
-            return Text("Wallet is empty");
-          }
+          // if (snapshot.hasData) {
+          //   return Text("Wallet is empty");
+          // }
           List<dynamic> payments = snapshot.data!['keyWithdrawsArray'];
-
+          if (payments.length == 0) {
+            return const Text("Wallet is empty");
+          }
           //Sorting-to-arrange-in-descending-order
           payments.sort(
               (a, b) => b['keyTimeAndDate'].compareTo(a['keyTimeAndDate']));

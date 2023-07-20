@@ -1,16 +1,21 @@
-# fc
+# Tradeop
+ 
+Your personalized opinion trading application.
 
-A new Flutter project.
+# Production
+`Alpha` - [Link]()
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+| Technology | Official Link |
+| ----------------- |----------------- |
+| Flutter | https://flutter.dev |
+| Firebase | https://firebase.google.com |
+ 
 
-A few resources to get you started if this is your first Flutter project:
+## For local development
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Install all the dependencies from the `pubspec.yaml` file 
+2. _cd_ into the `lib` folder
+3. Setup an emulator from your desktop or use _MIDI_ USB option on your mobile 
+2. Hit `Flutter run` from the terminal
