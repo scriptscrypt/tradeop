@@ -155,7 +155,6 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: const Icon(Icons.account_circle,
                 // color: Color.fromARGB(255, 81, 81, 81),
                 color: Color.fromRGBO(121, 134, 203, 1)),
-
             // ),
             // onPressed: () {
             //   Scaffold.of(context).openDrawer();
