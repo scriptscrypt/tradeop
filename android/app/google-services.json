@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679970923566",
+    "project_id": "foreseetestapp",
+    "storage_bucket": "foreseetestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679970923566:android:105aedded4c76d78816bbf",
+        "android_client_info": {
+          "package_name": "com.example.foresee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679970923566-tglgsma6u6on7m8qm488cql5dtjmnhc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2sZRYP4fpiU2a8RBNJtwBJiQiv6HDhMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679970923566-tglgsma6u6on7m8qm488cql5dtjmnhc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
